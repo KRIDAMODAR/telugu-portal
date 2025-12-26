@@ -13,7 +13,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu&display=swap" rel="stylesheet">
 
 <style>
-body{
+  .notification{
+  background:#ff9800;
+  color:white;
+  padding:10px;
+  text-align:center;
+  font-weight:bold;
+}
+
+.notification span{
+  margin-left:15px;
+  cursor:pointer;
+}
+<script>
+function closeNotify(){
+  document.getElementById("notify").style.display = "none";
+}
+</script>
+
+  body{
   margin:0;
   font-family:'Noto Sans Telugu', sans-serif;
   background:#fafafa;
