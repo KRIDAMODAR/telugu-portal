@@ -1,1 +1,1 @@
-# telugu-portal
+# SRAVYV'S EDUCATIONAL PORTAL 
